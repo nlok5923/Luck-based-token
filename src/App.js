@@ -68,7 +68,6 @@ const App = () => {
       setIsLoad(false);
       toast.success("Congratulations!!, You got some token");
     } catch(err) {
-      console.log(err);
       toast.error("Probably you had a back luck now !!");
     }
   }
